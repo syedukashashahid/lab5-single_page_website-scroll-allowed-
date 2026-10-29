@@ -16,8 +16,8 @@ portfolio/
 ```
 
 ## Links
-- Vercel link: 
-- GitHub Repo: 
+- Vercel link: https://lab5single-page-website.vercel.app
+- GitHub Repo: https://github.com/syedukashashahid/lab5-single_page_website-scroll-allowed-
 
 ## Prompt
 # Complete Project Prompt: Professional Portfolio Website — Syed Ukasha Shahid
