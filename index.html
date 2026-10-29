@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Syed Ukasha Shahid | Computer Science Student &amp; Aspiring Software Developer</title>
+  <meta name="description" content="Portfolio of Syed Ukasha Shahid, a BS Computer Science student at Qarshi University, Lahore, seeking internship and entry-level software development opportunities.">
+  <meta name="author" content="Syed Ukasha Shahid">
+  <meta name="theme-color" content="#F5F3E8">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Syed Ukasha Shahid | Aspiring Software Developer">
+  <meta property="og:description" content="BS Computer Science student at Qarshi University, open to internship and entry-level opportunities.">
+  <meta property="og:image" content="assets/profile.jpg">
+
+  <!-- Favicon: the US monogram as an inline SVG, so no extra image file is needed -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23191919'/%3E%3Ctext x='29' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' fill='%23F5F3E8' text-anchor='middle'%3EUS%3C/text%3E%3Ccircle cx='50' cy='40' r='4' fill='%23FF9F0A'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Flags that JS is available before first paint, so reveal animations don't flash -->
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="Syed Ukasha Shahid, back to top">
+        <span class="monogram" aria-hidden="true">US</span>
+        <span class="brand-name">Syed Ukasha Shahid</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="visually-hidden">Open menu</span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#strengths">Strengths</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-dark nav-cta" href="#contact">Let's Connect</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="availability"><span class="status-dot" aria-hidden="true"></span>Open to Internship Opportunities</p>
+          <p class="eyebrow">Computer Science Student</p>
+          <h1 class="hero-title" id="hero-title">Syed Ukasha <span class="hero-title-accent">Shahid</span></h1>
+          <p class="hero-headline">Aspiring Software Developer Building Practical Digital Solutions</p>
+          <p class="hero-intro">I'm a BS Computer Science student at Qarshi University with a foundation in programming, object-oriented programming, data structures, and database systems. I enjoy developing practical software and web applications and am eager to contribute to real-world projects while continuing to grow as a developer.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">
+              Explore My Work
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+            </a>
+            <a class="btn btn-outline" href="assets/Syed_Ukasha_Shahid_CV.pdf" download="Syed_Ukasha_Shahid_CV.pdf">
+              Download CV
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+            </a>
+          </div>
+          <ul class="hero-facts" aria-label="Quick facts">
+            <li><span class="fact-label">Studying</span><span class="fact-value">BS Computer Science</span></li>
+            <li><span class="fact-label">Based in</span><span class="fact-value">Lahore, Pakistan</span></li>
+            <li><span class="fact-label">Graduating</span><span class="fact-value">2028 (expected)</span></li>
+          </ul>
+        </div>
+
+        <figure class="portrait">
+          <div class="portrait-frame">
+            <img src="assets/profile.jpg" width="720" height="900"
+                 alt="Portrait of Syed Ukasha Shahid wearing a dark suit and shirt, seated on a wooden stool against a dark studio background">
+          </div>
+          <span class="portrait-corner portrait-corner-top" aria-hidden="true"></span>
+          <span class="portrait-corner portrait-corner-bottom" aria-hidden="true"></span>
+          <figcaption class="portrait-tag">
+            <span class="portrait-tag-label">Qarshi University</span>
+            <span class="portrait-tag-value">5th Semester · BSCS</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="section-head reveal">
+          <p class="section-index"><span>01</span> About Me</p>
+          <h2 class="section-title" id="about-title">A developer in the making, focused on <em>practical</em> software.</h2>
+        </div>
+
+        <div class="about-body reveal">
+          <p class="lead">I am a BS Computer Science student at Qarshi University, interested in software development and building practical digital solutions. My academic background includes programming, object-oriented programming, data structures and algorithms, and database systems. Through academic projects in Java desktop development and web technologies, I am developing my problem-solving skills and practical understanding of software engineering.</p>
+
+          <dl class="info-grid">
+            <div class="info-card">
+              <dt>Degree</dt>
+              <dd>BS Computer Science</dd>
+            </div>
+            <div class="info-card">
+              <dt>University</dt>
+              <dd>Qarshi University</dd>
+            </div>
+            <div class="info-card">
+              <dt>Current Semester</dt>
+              <dd>5th Semester</dd>
+            </div>
+            <div class="info-card">
+              <dt>Expected Graduation</dt>
+              <dd>2028</dd>
+            </div>
+            <div class="info-card info-card-wide">
+              <dt>Location</dt>
+              <dd>Lahore, Pakistan</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div>
+            <p class="section-index"><span>02</span> Technical Skills</p>
+            <h2 class="section-title" id="skills-title">The tools and foundations I work with.</h2>
+          </div>
+          <p class="section-note">Grouped by area, taken directly from my academic coursework and projects.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>
+            </div>
+            <h3 class="skill-title">Programming Languages</h3>
+            <ul class="tag-list">
+              <li class="tag">C</li>
+              <li class="tag">C++</li>
+              <li class="tag">Java</li>
+              <li class="tag">Python</li>
+              <li class="tag">SQL</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg>
+            </div>
+            <h3 class="skill-title">Web Development</h3>
+            <ul class="tag-list">
+              <li class="tag">HTML5</li>
+              <li class="tag">CSS3</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7.5l3 8M16 7.5l-3 8M8.5 6h7"/></svg>
+            </div>
+            <h3 class="skill-title">Core Computer Science Concepts</h3>
+            <ul class="tag-list">
+              <li class="tag">Object-Oriented Programming (OOP)</li>
+              <li class="tag">Data Structures and Algorithms</li>
+              <li class="tag">Database Management Systems (DBMS)</li>
+              <li class="tag">Operating Systems</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.2L3 17.8V21h3.2l6.3-6.3a4 4 0 0 0 5.2-5.4l-2.6 2.6-2.5-.6-.6-2.5z"/></svg>
+            </div>
+            <h3 class="skill-title">Tools and Technologies</h3>
+            <ul class="tag-list">
+              <li class="tag">Java Swing</li>
+              <li class="tag">NetBeans</li>
+              <li class="tag">MySQL</li>
+              <li class="tag">Microsoft Office</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div>
+            <p class="section-index"><span>03</span> Projects</p>
+            <h2 class="section-title" id="projects-title">Academic projects I have built.</h2>
+          </div>
+          <p class="section-note">The visuals below are conceptual illustrations drawn in HTML and CSS, not screenshots of the actual applications.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-visual project-visual-bus" role="img" aria-label="Conceptual illustration of a desktop dashboard for bus management, with a sidebar, route table and ticket cards">
+              <span class="concept-badge" aria-hidden="true">Concept illustration</span>
+              <div class="mock-window" aria-hidden="true">
+                <div class="mock-titlebar">
+                  <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+                  <span class="mock-title">Bus Management System</span>
+                </div>
+                <div class="bus-app">
+                  <div class="bus-sidebar">
+                    <span class="bus-side-item is-active">Routes</span>
+                    <span class="bus-side-item">Tickets</span>
+                    <span class="bus-side-item">Passes</span>
+                    <span class="bus-side-item">Buses</span>
+                    <span class="bus-side-item">Staff</span>
+                    <span class="bus-side-item">Feedback</span>
+                  </div>
+                  <div class="bus-main">
+                    <div class="bus-toolbar">
+                      <span class="bus-heading">Route Schedule</span>
+                      <span class="bus-btn">+ Add Route</span>
+                    </div>
+                    <div class="bus-tickets">
+                      <div class="bus-ticket">
+                        <span class="bus-ticket-label">Route</span>
+                        <span class="bus-ticket-value">A → B</span>
+                        <span class="bus-ticket-bar"></span>
+                      </div>
+                      <div class="bus-ticket bus-ticket-dark">
+                        <span class="bus-ticket-label">Pass</span>
+                        <span class="bus-ticket-value">Digital</span>
+                        <span class="bus-ticket-bar"></span>
+                      </div>
+                      <div class="bus-ticket">
+                        <span class="bus-ticket-label">Bus</span>
+                        <span class="bus-ticket-value">Allocated</span>
+                        <span class="bus-ticket-bar"></span>
+                      </div>
+                    </div>
+                    <div class="bus-table">
+                      <div class="bus-row bus-row-head"><span>Route</span><span>Departure</span><span>Bus</span><span>Status</span></div>
+                      <div class="bus-row"><span class="ln ln-m"></span><span class="ln ln-s"></span><span class="ln ln-s"></span><span class="pill pill-on"></span></div>
+                      <div class="bus-row"><span class="ln ln-l"></span><span class="ln ln-s"></span><span class="ln ln-s"></span><span class="pill"></span></div>
+                      <div class="bus-row"><span class="ln ln-m"></span><span class="ln ln-s"></span><span class="ln ln-s"></span><span class="pill pill-on"></span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <p class="project-type">Desktop Application</p>
+              <h3 class="project-title">Bus Management System</h3>
+              <p class="project-desc">Developed a Java-based desktop application to manage bus operations, including route scheduling, ticket booking, digital passes, bus allocation, and staff and feedback management.</p>
+              <ul class="tag-list tag-list-tech" aria-label="Technologies used">
+                <li class="tag tag-tech">Java Swing</li>
+                <li class="tag tag-tech">OOP</li>
+                <li class="tag tag-tech">NetBeans</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal">
+            <div class="project-visual project-visual-shineo" role="img" aria-label="Conceptual illustration of a service-booking website with a search bar, service categories and provider cards">
+              <span class="concept-badge" aria-hidden="true">Concept illustration</span>
+              <div class="mock-window mock-browser" aria-hidden="true">
+                <div class="mock-titlebar">
+                  <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+                  <span class="mock-url"></span>
+                </div>
+                <div class="shineo-app">
+                  <div class="shineo-nav">
+                    <span class="shineo-logo">Shineo<span>.</span></span>
+                    <span class="shineo-links"><span></span><span></span><span></span></span>
+                  </div>
+                  <div class="shineo-hero">
+                    <span class="shineo-heading">Find trusted help nearby</span>
+                    <div class="shineo-search">
+                      <span class="shineo-search-field"></span>
+                      <span class="shineo-search-btn">Search</span>
+                    </div>
+                  </div>
+                  <div class="shineo-cats">
+                    <span class="shineo-cat is-active">Cleaning</span>
+                    <span class="shineo-cat">Cooking</span>
+                    <span class="shineo-cat">Laundry</span>
+                    <span class="shineo-cat">Childcare</span>
+                  </div>
+                  <div class="shineo-providers">
+                    <div class="shineo-provider">
+                      <span class="shineo-avatar"></span>
+                      <span class="shineo-lines"><span class="ln ln-m"></span><span class="ln ln-s"></span></span>
+                      <span class="shineo-book">Book</span>
+                    </div>
+                    <div class="shineo-provider">
+                      <span class="shineo-avatar shineo-avatar-alt"></span>
+                      <span class="shineo-lines"><span class="ln ln-l"></span><span class="ln ln-s"></span></span>
+                      <span class="shineo-book">Book</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <p class="project-type">Web Platform</p>
+              <h3 class="project-title">Shineo — Maid Finder Website</h3>
+              <p class="project-desc">Developed a web platform designed to connect users with nearby domestic service providers through a clean, easy-to-use interface.</p>
+              <ul class="tag-list tag-list-tech" aria-label="Technologies used">
+                <li class="tag tag-tech">HTML5</li>
+                <li class="tag tag-tech">CSS3</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EDUCATION ========== -->
+    <section class="section section-alt" id="education" aria-labelledby="education-title">
+      <div class="container education-grid">
+        <div class="section-head reveal">
+          <p class="section-index"><span>04</span> Education</p>
+          <h2 class="section-title" id="education-title">My academic path so far.</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline-item is-current reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-year">Expected 2028</span>
+                <span class="timeline-status">In progress</span>
+              </div>
+              <h3 class="timeline-title">BS Computer Science</h3>
+              <p class="timeline-inst">Qarshi University</p>
+              <p class="timeline-detail">Currently in the 5th Semester</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-year">2024</span>
+                <span class="timeline-status timeline-status-done">Completed</span>
+              </div>
+              <h3 class="timeline-title">Intermediate (ICS / Pre-Engineering)</h3>
+              <p class="timeline-inst">Punjab Group of Colleges</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <span class="timeline-year">2022</span>
+                <span class="timeline-status timeline-status-done">Completed</span>
+              </div>
+              <h3 class="timeline-title">Matriculation</h3>
+              <p class="timeline-inst">Nishat Boys High School</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== STRENGTHS & LANGUAGES ========== -->
+    <section class="section" id="strengths" aria-labelledby="strengths-title">
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div>
+            <p class="section-index"><span>05</span> Strengths &amp; Languages</p>
+            <h2 class="section-title" id="strengths-title">What I bring to a team.</h2>
+          </div>
+        </div>
+
+        <div class="strengths-layout">
+          <ul class="strengths-grid" aria-label="Strengths">
+            <li class="strength-card reveal"><span class="strength-num" aria-hidden="true">01</span><span class="strength-name">Problem Solving</span></li>
+            <li class="strength-card reveal"><span class="strength-num" aria-hidden="true">02</span><span class="strength-name">Analytical Thinking</span></li>
+            <li class="strength-card reveal"><span class="strength-num" aria-hidden="true">03</span><span class="strength-name">Quick Learner</span></li>
+            <li class="strength-card reveal"><span class="strength-num" aria-hidden="true">04</span><span class="strength-name">Communication</span></li>
+            <li class="strength-card reveal"><span class="strength-num" aria-hidden="true">05</span><span class="strength-name">Teamwork</span></li>
+            <li class="strength-card reveal"><span class="strength-num" aria-hidden="true">06</span><span class="strength-name">Time Management</span></li>
+          </ul>
+
+          <aside class="languages-card reveal" aria-labelledby="languages-title">
+            <h3 class="languages-title" id="languages-title">Languages</h3>
+            <ul class="languages-list">
+              <li><span class="lang-code" aria-hidden="true">EN</span>English</li>
+              <li><span class="lang-code" aria-hidden="true">UR</span>Urdu</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-intro reveal">
+          <p class="section-index section-index-light"><span>06</span> Contact</p>
+          <h2 class="contact-title" id="contact-title">Let's build something <em>practical</em> together.</h2>
+          <p class="contact-text">I am looking for internship and entry-level opportunities where I can contribute to real-world projects and keep learning from experienced developers. If you have a role, a project, or simply a question, I would be glad to hear from you.</p>
+          <a class="btn btn-primary" href="mailto:syedukashashahid@gmail.com">
+            Email Me
+            <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <ul class="contact-list reveal">
+          <li>
+            <a class="contact-item" href="mailto:syedukashashahid@gmail.com">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+              <span class="contact-meta">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">syedukashashahid@gmail.com</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-item" href="tel:+923095236098">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+              <span class="contact-meta">
+                <span class="contact-label">Phone</span>
+                <span class="contact-value">+92 309 5236098</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <div class="contact-item contact-item-static">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+              <span class="contact-meta">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Lahore, Pakistan</span>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#home" aria-label="Syed Ukasha Shahid, back to top">
+          <span class="monogram monogram-light" aria-hidden="true">US</span>
+          <span class="brand-name">Syed Ukasha Shahid</span>
+        </a>
+        <p class="footer-tagline">Computer Science student building practical software, one project at a time.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Syed Ukasha Shahid. All rights reserved.</p>
+      <a class="footer-top-link" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
